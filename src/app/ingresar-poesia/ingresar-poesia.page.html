@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Crea un Poema</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button>
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+ 
+
+    <ion-item>
+      <ion-label position="floating">Escribe un comentario</ion-label>
+      <ion-textarea [(ngModel)]="document.text"></ion-textarea>
+    </ion-item>
+
+    <ion-item>
+      <ion-button (click)="insertDocument()">Crear Poema</ion-button>
+    </ion-item>
+
+
+</ion-content>
