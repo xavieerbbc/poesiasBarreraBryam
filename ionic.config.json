@@ -1,0 +1,7 @@
+{
+  "name": "poesiasBarreraBryam",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
